@@ -1,5 +1,5 @@
 # Metaverse use cases
-This document aims to encompass the ways in which the metaverse is or may be used in order to identify accessibility barriers and offer suggested solutions. It is broadly inspired by object based programming where something can 'inherit' properties from parents. In this way it offers 'types of experience' which will embody aspects of a metaverse use case. A guided tour of a museum will inherit from [Exhibition](#Exhibition) and [Presentation](Presentation-/-demonstration-/-concert) whereas a guided tour of the White House will inherit from [Virtual Space](#Virtual-space) and [Presentation](Presentation-/-demonstration-/-concert) and a virtual representation of Pompei may inherit from [Exhibition](#Exhibition) and [Virtual Space](#Virtual-space).
+This document aims to encompass the ways in which the metaverse is or may be used in order to identify accessibility barriers and offer suggested solutions. It is broadly inspired by object based programming where something can 'inherit' properties from parents. In this way it offers 'types of experience' which will embody aspects of a metaverse use case. A guided tour of a museum will inherit from [Exhibition](#Exhibition) and [Presentation](#Presentation-/-demonstration-/-concert) whereas a guided tour of the White House will inherit from [Virtual Space](#Virtual-space) and [Presentation](#Presentation-/-demonstration-/-concert) and a virtual representation of Pompei may inherit from [Exhibition](#Exhibition) and [Virtual Space](#Virtual-space).
 The document then lists relevant mechanics for each type of experience. These are actions you might expect to perform as part of this experience or ways in which you might expect to interact with it. These describe potential accessibility barriers and ways in which you might overcome those barriers. The suggestions of ways to overcome the barriers may point to accessibility design patterns.
 
 ## Types of Experience 
@@ -12,7 +12,7 @@ Create Avatar, customise Avatar, chat
 ### Exhibition
 A collection of objects of interest. 
 #### Relevant Mechanics
-[View](view), signpost, discuss, search a collection, browse
+[View](#view), signpost, discuss, search a collection, browse
 
 ### Presentation / demonstration / concert
 A meeting of multiple participants with presenters and an audience. Most of the communication will be one way (from the presenters to the audience) but it may flow the other way to allow reactions, comments and questions. There may be a separate chat function available to audience members (and additionally the presenters).
@@ -57,7 +57,7 @@ Create a reference to something which can be shared with other users or software
 Get information about an object 
 #### Potential accessibility barriers
 ##### Visual information is not accessible to people with sight loss. 
-Provide a verbal description of the object. Consider [TTS](TTS) 
+Provide a verbal description of the object. Consider [TTS](#TTS) 
 ##### Audio information is not accessible to people with hearing loss
 
 ## Accessible design patterns
