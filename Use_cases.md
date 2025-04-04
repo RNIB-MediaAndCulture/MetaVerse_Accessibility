@@ -15,7 +15,7 @@ A collection of objects of interest such as a museum or art gallery.
 [View](#view), signpost, discuss, search a collection, browse
 
 ### Meeting
-A managed discussion which may or may not have a set agenda. There will usually be a chairperson managing the discussion and the meeting may be recorded as an audio visual file, written transcript, written notes or in some other fasion. A meeting may incorporate a 'speaker token' which mutes all users except for the chairperson and the person with the 'speaker token'. Meetings will commonly incorporate [presentations](#Presentation--demonstration--concert).
+A managed discussion which may or may not have a set agenda. There will usually be a chairperson managing the discussion and the meeting may be recorded as an audiovisual file, written transcript, written notes or in some other fashion. A meeting may incorporate a 'speaker token' which mutes all users except for the chairperson and the person with the 'speaker token'. Meetings will commonly incorporate [presentations](#Presentation--demonstration--concert).
 #### Relevant mechanics
 chat, discuss, mute, speaker token, 
 
