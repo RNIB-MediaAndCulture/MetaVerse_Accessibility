@@ -27,7 +27,7 @@ Communicate, mute, present, show reaction,
 ### Virtual space
 A virtual representation of a physical location (real or imaginary) which can be navigated by the user often using an avatar. The virtual space may contain interactable objects, decorative objects, avatars or doors (or links) to other virtual spaces. Other types of experience will often happen in a virtual space.
 #### Relevant Mechanics
-[browse](#browse), [Copy Object](#copy-object), [Drop](#drop),  interact, move, [Pick-up](#pick-up) [Search a collection](#Search-a-collection), wayfind
+[Browse](#browse), [Copy Object](#copy-object), [Drop](#drop),  [interact](#interact), [move]#(move), [Pick-up](#pick-up) [Search a collection](#Search-a-collection), [Signpost](#signpost), [Navigate](#Wayfind)
 
 ## Mechanics
 
@@ -45,7 +45,7 @@ Communicate with other users or software agents through a range of possible comm
 #### Potential accessibility barriers
 
 ### Copy object
-Create a copy of an object from a virtual space or exhibition. This associates a copy with the users avatar but leave a copy in the virtual space or exhibition.
+Create a copy of an object from a virtual space or exhibition. This associates a copy with the user's avatar but leaves a copy in the virtual space or exhibition.
 ####
 
 ### Discuss
@@ -60,6 +60,17 @@ Place an object in a virtual space or exhibition. This disassociates it with the
 ### Interact
 Perform an action on an interactable object. The user will need to be able to understand what they can do with the object and how they do it.
 #### Potential accessibility barriers
+
+### Orient
+Where a user gains an understanding of the locations of objects that surround their avatar in a virtual space. This may include the whole virtual space or focus on a window. For instance in a first person view orienting may describe just the objects on the screen (requiring the user to turn their avatar to bring more objects into focus) or it may also communicate objects that are 'off camera' to the user.
+#### Potential accessibility barriers
+##### Visual information is not accessible to people with sight loss. 
+- Provide an audio or verbal description of the scene or space. Consider [audio beacons](#audio-beacons), [audio description](#audio-description), [Text-to-Speech (TTS)](#Text-to-Speech) 
+##### Audio information is not accessible to people with hearing loss
+
+##### People with cognitive disabilities may be overwhelmed if given too much information
+- In a first person view consider focusing on just the objects closest to the center of the view to allow the user to explore by turning their head.
+- Allow the user to step through the objects one at a time so they get information about one object then trigger the interface moving on to describe the next one. 
 
 ### Pick-up
 Take an object from a virtual space or exhibition. This removes it from the virtual space or exhibition and associates it with the user's avatar.
@@ -77,14 +88,58 @@ Create a reference to something which can be shared with other users or software
 
 
 
+
+
+### Move
+Reposition a users avatar from one place in a virtual space to another one. This may be via continuous user controlled movement, through a continuous computer controlled movement or instantaneous movement. If through continuous movement then users may benefit from finding out about objects and landmarks that become perceivable as they travel.  
+#### Potential accessibility barriers
+
+
+
+### Navigate
+To understand how to get from where a user is in a [virtual space](#virtual-space) to another position in the virtual space that they want to get to. When a user navigates they become informed of where locations of interest are in releation to them so that they can then [move](#move) to them or towards them.
+#### Potential accessibility barriers
+
+
 ### View 
-Get information about an object 
+Get information about an object. 
 #### Potential accessibility barriers
 ##### Visual information is not accessible to people with sight loss. 
-Provide a verbal description of the object. Consider [TTS](#TTS) 
+- Provide a verbal description of the object. Consider [Text-to-Speech (TTS)](#Text-to-Speech) 
 ##### Audio information is not accessible to people with hearing loss
+- Provide visual equivalents for any sounds that are of interest or of importance. Consider [captions](#captions), [speech to text](#speech-to-text) 
+
 
 ## Accessible design patterns
-#### TTS
+
+### Audio beacons
+Audio beacons are sounds 'placed around' the user using immersive audio. They can act as a way to locate objects in a virtual space, to annotate objects or to provide waypoints for navigation.
+
+### Captions
+Captions are lines of text within a users view that correspond to audio information. They can translate between languages, provide a real-time transcript of speech for people who would struggle to hear or understand spoken language or describe sounds for people with hearing loss. They may also encourage language learning or reduce cognitive load by providing multi-channel communication. 
+
+### Clear Language
+Using simplified language. << There are many reasons for doing this and different ways to simplify the language. Using language that corresponds to a reduced reading age, avoiding colloquialisms, shorter sentences, unambiguous language etc. Is this one design pattern or several? 
+
+### High Contrast
+Parts of a visual are made to 'stand out' by using contrasting colours. This is often used for text but could also be used for symbols, the outlines of objects etc. WCAG contains a formula for determining the contrast ratio between two colours.
+
+### Magnification
+Part of the visuals are enlarged making it easier to see. 
+
+### Mono audio
+People who have hearing loss in one ear can benefit from stereo audio being flattened to mono audio so that no audio information is going just to the ear with hearing loss. 
+
+
+
+### Speech to text
+Audio speech is converted into a stream of text 
+
+### Text to speech
 Written text is synthesised into speech and played audibly to the user
+
+### Visual sound effects
+In a virtual space objects that make sounds can have captions or speech bubbles placed on them to make them accessible for people with hearing loss. 
+
+
 
