@@ -20,7 +20,7 @@ A managed discussion which may or may not have a set agenda. There will usually 
 chat, discuss, mute, speaker token, 
 
 ### Presentation / demonstration / concert
-A meeting of multiple participants with presenters and an audience. Most of the communication will be one way (from the presenters to the audience) but it may flow the other way to allow reactions, comments and questions. There may be a separate chat function available to audience members (and additionally the presenters).
+A gathering of multiple participants with presenters and an audience. Most of the communication will be one way (from the presenters to the audience) but it may flow the other way to allow reactions, comments and questions. There may be a separate chat function available to audience members (and additionally the presenters).
 #### Relevant mechanics
 Communicate, mute, present, show reaction,  
 
