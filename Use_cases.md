@@ -27,7 +27,7 @@ Communicate, mute, present, show reaction,
 ### Virtual space
 A virtual representation of a physical location (real or imaginary) which can be navigated by the user often using an avatar. The virtual space may contain interactable objects, decorative objects, avatars or doors (or links) to other virtual spaces. Other types of experience will often happen in a virtual space.
 #### Relevant Mechanics
-Movement, wayfinding,  
+[browse](#browse), [Copy Object](#copy-object), [Drop](#drop),  interact, move, [Pick-up](#pick-up) [Search a collection](#Search-a-collection), wayfind
 
 ## Mechanics
 
@@ -39,13 +39,32 @@ Cycle through a collection of objects getting enough information about them to m
 Communicate with other users or software agents through a range of possible communication channels including spoken language, sign language, text, drawings, facial expression, dance etc.
 #### Potential accessibility barriers
 
+
 ### Create Avatar
 
 #### Potential accessibility barriers
 
+### Copy object
+Create a copy of an object from a virtual space or exhibition. This associates a copy with the users avatar but leave a copy in the virtual space or exhibition.
+####
+
 ### Discuss
 Communicate with one or more users or software agents about an object or subject. Communication can be through a range of possible communication channels including spoken language, sign language, text, drawings, facial expression, dance etc. The object or topic should be available as a reference.
 #### Potential accessibility barriers
+
+### Drop
+Place an object in a virtual space or exhibition. This disassociates it with the user's avatar and places it in the virtual space or exhibition.
+#### Potential accessibility barriers
+
+
+### Interact
+Perform an action on an interactable object. The user will need to be able to understand what they can do with the object and how they do it.
+#### Potential accessibility barriers
+
+### Pick-up
+Take an object from a virtual space or exhibition. This removes it from the virtual space or exhibition and associates it with the user's avatar.
+#### Potential accessibility barriers
+
 
 ### Search a collection
 
