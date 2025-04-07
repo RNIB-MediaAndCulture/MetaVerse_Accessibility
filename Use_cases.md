@@ -130,10 +130,11 @@ Part of the visuals are enlarged making it easier to see.
 ### Mono audio
 People who have hearing loss in one ear can benefit from stereo audio being flattened to mono audio so that no audio information is going just to the ear with hearing loss. 
 
-
-
 ### Speech to text
 Audio speech is converted into a stream of text 
+
+### Tasklist
+A list of actions which may help someone with cognitive disabilities keep track of actions they need to do or plan to do.
 
 ### Text to speech
 Written text is synthesised into speech and played audibly to the user
