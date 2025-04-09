@@ -22,7 +22,7 @@ chat, discuss, mute, speaker token,
 ### Presentation / demonstration / concert
 A gathering of multiple participants with presenters and an audience. Most of the communication will be one way (from the presenters to the audience) but it may flow the other way to allow reactions, comments and questions. There may be a separate chat function available to audience members (and additionally the presenters).
 #### Relevant mechanics
-Communicate, mute, present, show reaction,  
+Chat, mute, present, show reaction, Spectate  
 
 ### Purchase
 Pay for goods or services. This will need to cover the exchange of funds and secure record of the transaction. Some use cases will also require a proof or purchase mechanism for pre-orders, purchased services etc.
@@ -32,7 +32,7 @@ Pay, Receive receipt, Proof-of-purchase
 ### Virtual space
 A virtual representation of a physical location (real or imaginary) which can be navigated by the user often using an avatar. The virtual space may contain interactable objects, decorative objects, avatars or doors (or links) to other virtual spaces. Other types of experience will often happen in a virtual space.
 #### Relevant Mechanics
-[Browse](#browse), [Copy Object](#copy-object), [Drop](#drop),  [interact](#interact), [move]#(move), [Pick-up](#pick-up) [Search a collection](#Search-a-collection), [Signpost](#signpost), [Navigate](#Wayfind)
+[Browse](#browse), [Copy Object](#copy-object), [Drop](#drop),  [interact](#interact), [move](#move), [Pick-up](#pick-up) [Search a collection](#Search-a-collection), [Signpost](#signpost), [Navigate](#Wayfind)
 
 ## Mechanics
 
