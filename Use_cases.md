@@ -30,7 +30,7 @@ Pay for goods or services. This will need to cover the exchange of funds and sec
 Authenticate, Pay, Receive receipt, Proof-of-purchase
 
 ### Schedule
-Manage time allocations for a service or virtual object. 
+Manage time allocations for a service or virtual object or timed events. 
 #### Relevant mechanics
 Authenticate, Book, Release booking, Read schedule
 
