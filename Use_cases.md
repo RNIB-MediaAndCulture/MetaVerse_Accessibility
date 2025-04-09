@@ -27,7 +27,12 @@ Chat, mute, present, show reaction, Spectate
 ### Purchase
 Pay for goods or services. This will need to cover the exchange of funds and secure record of the transaction. Some use cases will also require a proof or purchase mechanism for pre-orders, purchased services etc.
 #### Relevant mechanics
-Pay, Receive receipt, Proof-of-purchase
+Authenticate, Pay, Receive receipt, Proof-of-purchase
+
+### Schedule
+Manage time allocations for a service or virtual object. 
+#### Relevant mechanics
+Authenticate, Book, Release booking, Read schedule
 
 ### Virtual space
 A virtual representation of a physical location (real or imaginary) which can be navigated by the user often using an avatar. The virtual space may contain interactable objects, decorative objects, avatars or doors (or links) to other virtual spaces. Other types of experience will often happen in a virtual space.
