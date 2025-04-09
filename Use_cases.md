@@ -25,7 +25,7 @@ A gathering of multiple participants with presenters and an audience. Most of th
 Communicate, mute, present, show reaction,  
 
 ### Purchase
-Pay for goods or services. This will need to cover the exchange of funds and secure record of the purchase. Some use cases will also require a proof or purchase mechanism for pre-orders, purchased services etc.
+Pay for goods or services. This will need to cover the exchange of funds and secure record of the transaction. Some use cases will also require a proof or purchase mechanism for pre-orders, purchased services etc.
 #### Relevant mechanics
 Pay, Receive receipt, Proof-of-purchase
 
