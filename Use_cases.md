@@ -24,10 +24,10 @@ A gathering of multiple participants with presenters and an audience. Most of th
 #### Relevant mechanics
 Chat, mute, present, show reaction, Spectate  
 
-### Purchase
-Pay for goods or services. This will need to cover the exchange of funds and secure record of the transaction. Some use cases will also require a proof or purchase mechanism for pre-orders, purchased services etc.
+### Pay
+Perform a financial transaction. This will need to cover the exchange of funds and secure record of the transaction. Some use cases will also require a proof or purchase mechanism for pre-orders, purchased services etc.
 #### Relevant mechanics
-Authenticate, Pay, Receive receipt, Proof-of-purchase
+Authenticate, Invoice, Pay, Receive receipt, Request quote, Proof-of-purchase, Quote
 
 ### Schedule
 Manage time allocations for a service or virtual object or timed events. 
