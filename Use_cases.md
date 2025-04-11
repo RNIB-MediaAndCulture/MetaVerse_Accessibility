@@ -9,6 +9,10 @@ A virtual space where two or more users can converse. Users will typically use a
 #### Relevant Mechanics
 Create Avatar, customise Avatar, chat
 
+### Collaboration
+Two or more users can work together on a collaborative project. This could be a document, whiteboard, presentation, performance etc.
+#### Relevant Mechanics
+
 ### Exhibition
 A collection of objects of interest such as a museum or art gallery. 
 #### Relevant Mechanics
