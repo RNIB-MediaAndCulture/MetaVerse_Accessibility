@@ -7,42 +7,42 @@ The document then lists relevant mechanics for each aspect of experience. These 
 ### Chatroom
 A virtual space where two or more users can converse. Users will typically use avatars (representations of themselves) which may be fully virtual or could be a combination of virtual reality and input from a camera.
 #### Relevant Mechanics
-Create Avatar, customise Avatar, chat
+[Create Avatar](#create-avatar), [Customise Avatar](#customise-avatar), [Chat](#chat)
 
 ### Collaboration
 Two or more users can work together on a collaborative project. This could be a document, picture, whiteboard etc.
 #### Relevant Mechanics
-Add text, Annotate, Draw, Pin note, Update in realtime 
+[Add text](#add-text), [Annotate](#annotate), [Draw](#draw), [Pin note](#pin-note), [Update in realtime](#update-in-realtime) 
 
 ### Exhibition
 A collection of objects of interest such as a museum or art gallery. 
 #### Relevant Mechanics
-[View](#view), signpost, discuss, search a collection, browse
+[Browse](#browse), [Signpost](#signpost), [Discuss]#(discuss), [Search a collection](#Search-a-collection), [View](#view)
 
 ### Meeting
 A managed discussion which may or may not have a set agenda. There will usually be a chairperson managing the discussion and the meeting may be recorded as an audiovisual file, written transcript, written notes or in some other fashion. A meeting may incorporate a 'speaker token' which mutes all users except for the chairperson and the person with the 'speaker token'. Meetings will commonly incorporate [presentations](#Presentation--demonstration--concert).
 #### Relevant mechanics
-chat, discuss, mute, speaker token, 
+[Chat](#chat), [Discuss]#(discuss), [Mute](#mute), [Speaker token](#speaker-token)
 
 ### Presentation / demonstration / concert
 A gathering of multiple participants with presenters and an audience. Most of the communication will be one way (from the presenters to the audience) but it may flow the other way to allow reactions, comments and questions. There may be a separate chat function available to audience members (and additionally the presenters).
 #### Relevant mechanics
-Chat, mute, present, show reaction, Spectate  
+[Chat](#chat), [Mute](#mute), [Present](#present), [Show reaction](#show-reaction), [Spectate](#spectate)  
 
 ### Payment
 Perform a financial transaction. This will need to cover the exchange of funds and secure record of the transaction. Some use cases will also require a proof or purchase mechanism for pre-orders, purchased services etc.
 #### Relevant mechanics
-Authenticate, Invoice, Pay, Receive receipt, Request quote, Proof-of-purchase, Quote
+[Authenticate](#authenticate), [Invoice](#invoice), [Pay](#pay), [Receive receipt](#receive-receipt), [Request quote](#request-quote), [Proof-of-purchase](#proof-of-purchase), [Quote](#Quote)
 
 ### Scheduling
 Manage time allocations for a service or virtual object or timed events. 
 #### Relevant mechanics
-Authenticate, Book, Release booking, Read schedule
+[Authenticate](#authenticate), [Book](#book), [Release booking](#release-booking), [Read schedule](#read-schedule)
 
 ### Virtual space
 A virtual representation of a physical location (real or imaginary) which can be navigated by the user often using an avatar. The virtual space may contain interactable objects, decorative objects, avatars or doors (or links) to other virtual spaces. Other types of experience will often happen in a virtual space.
 #### Relevant Mechanics
-[Browse](#browse), [Copy Object](#copy-object), [Drop](#drop),  [interact](#interact), [move](#move), [Navigate](#navigate), [Orient](#orient), [Pick-up](#pick-up) [Search a collection](#Search-a-collection), [Signpost](#signpost), 
+[Browse](#browse), [Copy Object](#copy-object), [Create Avatar](#create-avatar), [Customise Avatar](#customise-avatar), [Drop](#drop),  [Interact](#interact), [move](#move), [Navigate](#navigate), [Orient](#orient), [Pick-up](#pick-up) [Search a collection](#Search-a-collection), [Signpost](#signpost), 
 
 ## Mechanics
 
