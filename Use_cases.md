@@ -7,7 +7,7 @@ The document then lists relevant mechanics for each aspect of experience. These 
 ### Chatroom
 A virtual space where two or more users can converse. Users will typically use avatars (representations of themselves) which may be fully virtual or could be a combination of virtual reality and input from a camera.
 #### Relevant Mechanics
-Create Avatar, customise Avatar, chat
+[Create Avatar](#create-avatar), customise Avatar, chat
 
 ### Collaboration
 Two or more users can work together on a collaborative project. This could be a document, picture, whiteboard etc.
