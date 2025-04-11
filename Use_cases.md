@@ -10,8 +10,9 @@ A virtual space where two or more users can converse. Users will typically use a
 Create Avatar, customise Avatar, chat
 
 ### Collaboration
-Two or more users can work together on a collaborative project. This could be a document, whiteboard, presentation, performance etc.
+Two or more users can work together on a collaborative project. This could be a document, picture, whiteboard etc.
 #### Relevant Mechanics
+Add text, Annotate, Draw, Pin note, Update in realtime 
 
 ### Exhibition
 A collection of objects of interest such as a museum or art gallery. 
