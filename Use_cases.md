@@ -17,7 +17,7 @@ Two or more users can work together on a collaborative project. This could be a 
 ### Exhibition
 A collection of objects of interest such as a museum or art gallery. 
 #### Relevant Mechanics
-[Browse](#browse), [Signpost](#signpost), [Discuss]#(discuss), [Search a collection](#Search-a-collection), [View](#view)
+[Browse](#browse), [Signpost](#signpost), [Discuss](#discuss), [Search a collection](#Search-a-collection), [View](#view)
 
 ### Meeting
 A managed discussion which may or may not have a set agenda. There will usually be a chairperson managing the discussion and the meeting may be recorded as an audiovisual file, written transcript, written notes or in some other fashion. A meeting may incorporate a 'speaker token' which mutes all users except for the chairperson and the person with the 'speaker token'. Meetings will commonly incorporate [presentations](#Presentation--demonstration--concert).
