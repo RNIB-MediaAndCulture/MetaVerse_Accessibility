@@ -22,7 +22,7 @@ A collection of objects of interest such as a museum or art gallery.
 ### Meeting
 A managed discussion which may or may not have a set agenda. There will usually be a chairperson managing the discussion and the meeting may be recorded as an audiovisual file, written transcript, written notes or in some other fashion. A meeting may incorporate a 'speaker token' which mutes all users except for the chairperson and the person with the 'speaker token'. Meetings will commonly incorporate [presentations](#Presentation--demonstration--concert).
 #### Relevant mechanics
-[Chat](#chat), [Discuss]#(discuss), [Mute](#mute), [Speaker token](#speaker-token)
+[Chat](#chat), [Discuss](#discuss), [Mute](#mute), [Speaker token](#speaker-token)
 
 ### Presentation / demonstration / concert
 A gathering of multiple participants with presenters and an audience. Most of the communication will be one way (from the presenters to the audience) but it may flow the other way to allow reactions, comments and questions. There may be a separate chat function available to audience members (and additionally the presenters).
