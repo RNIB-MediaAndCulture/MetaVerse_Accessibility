@@ -49,11 +49,24 @@ A virtual representation of a physical location (real or imaginary) which can be
 ### Add text
 Add text to an existing document or object
 #### Potential accessibility barriers
-
+##### Text entry may not be accessible to print disabled people (people with sight loss, dyslexia or other conditions preventing them from easily accessing text)
+- Ensure text is high contrast, of a good size and avoid novelty fonts
+- Consider enabling text customisation to allow colours, fonts and text size to be changed by the user
+- Avoid transparent or translucent backgrounds and enable single block coloured backgrounds
+- Allow voice input and text-to-speech
 
 ### Annotate
 Attach an auxhillary note to a document or object. 
 #### Potential accessibility barriers
+##### Blind and partially sighted users may struggle to attach an annotation to the document or object
+- Consider providing a spoken interface that can cycle through objects by their descriptions in metadata 
+- consider [Computer Vision](link) or [Human Assistance](link)
+##### Text entry may not be accessible to print disabled people (people with sight loss, dyslexia or other conditions preventing them from easily accessing text)
+- Ensure text is high contrast, of a good size and avoid novelty fonts
+- Consider enabling text customisation to allow colours, fonts and text size to be changed by the user
+- Avoid transparent or translucent backgrounds and enable single block coloured backgrounds
+- Allow voice input and text-to-speech
+- Consider emojis (with TTS support) to reduce the need for words
 
 ### Authenticate
 A mechanism to prove a user's ID.   
@@ -70,6 +83,9 @@ To reserve an object, virtual space or event. This may be an exclusive reservati
 Cycle through a collection of objects getting enough information about them to make a decision whether to find out more about them, interact with them, signpost or share them or perform some other action.  
 #### Potential accessibility barriers
 
+metadata
+- consider [Computer Vision](link) or [Human Assistance](link)
+
 ### Chat
 Communicate with other users or software agents through a range of possible communication channels including spoken language, sign language, text, drawings, facial expression, dance etc.
 #### Potential accessibility barriers
@@ -78,13 +94,19 @@ Communicate with other users or software agents through a range of possible comm
 Create a copy of an object from a virtual space or exhibition. This associates a copy with the user's avatar but leaves a copy in the virtual space or exhibition.
 #### Potential accessibility barriers
 
+
 ### Create Avatar
 Bring into existence an avatar (visual representative) of the user to be used in virtual spaces. The avatar may or may not resemble the user and could blend a picture or video of the user with a virtual object (as in use a texture map based on a picture of the user's face or appearence).
 #### Potential accessibility barriers
 
+- consider [Computer Vision](link) or [Human Assistance](link)
+  
 ### Customise Avatar
 Change the appearence of an existing avatar.
 #### Potential accessibility barriers
+
+
+- consider [Computer Vision](link) or [Human Assistance](link)
 
 ### Discuss
 Communicate with one or more users or software agents about an object or subject. Communication can be through a range of possible communication channels including spoken language, sign language, text, drawings, facial expression, dance etc. The object or topic should be available as a reference.
@@ -93,15 +115,29 @@ Communicate with one or more users or software agents about an object or subject
 ### Draw
 Make marks on a document or virtual object.
 #### Potential accessibility barriers
+##### Blind users may not be aware of marks that are already made on the document or object. 
+- Consider AI computer vision to describe existing marks
+- Consider [Computer Vision](link) or [Human Assistance](link)
+- Enable users who have made marks to add metadata describing what they've drawn 
+##### Blind users may not be able to detect the marks they are making
+- Consider AI powered mark making ("Draw a circle around the picture of a cat")
+- Consider clip art or emojis that can be added and AI powered positioning
+- Consider [Human Assistance](link) where the assistant can add marks according to a users instructions. 
 
 ### Drop
 Place an object in a virtual space or exhibition. This disassociates it with the user's avatar and places it in the virtual space or exhibition.
 #### Potential accessibility barriers
+##### Blind users may not know where the object can be placed (obstacles in the way, restricted areas etc)
+
 
 
 ### Interact
 Perform an action on an interactable object. The user will need to be able to understand what they can do with the object and how they do it.
 #### Potential accessibility barriers
+##### Visual intructions or clues to an object's use may not be accessible to blind and partially sighted people
+- Ensure that all visual instructions or clues are communicated audibly or verbally
+##### If an action cannot be performed and this is communicated visually then this may not be accessible to a blind or partially sighted user
+- Ensure that all visual messages are communicated audibly or verbally
 
 ### Invoice
 Formally send a request for payment.
@@ -111,15 +147,23 @@ Formally send a request for payment.
 Reposition a users avatar from one place in a virtual space to another one. This may be via continuous user controlled movement, through a continuous computer controlled movement or instantaneous movement. If through continuous movement then users may benefit from finding out about objects and landmarks that become perceivable as they travel.  
 #### Potential accessibility barriers
 
+Continuous movement
+- consider [Computer Vision](link) or [Human Assistance](link)
+
 ### Mute
 To render something silent. This may be a user making something else silent or turning off their own microphone.
 #### Potential accessibility barriers
+##### Controls may not be accessible to blind and partially sighted people
+- Consider keyboard shortcuts, gestures, voice commands as appropriate to the platform
+##### Blind or partially sighted user may not be aware they are muted
+- Ensure that mute icon is not just presented visually
+- Consider speech detection so that if the user is talking and muted they are alerted that they are muted (potentially with a spoken message and voice interface"Unmute? Yes or No." or potentially with a sound that indicates they are muted)  
 
 ### Navigate
 To understand how to get from where a user is in a [virtual space](#virtual-space) to another position in the virtual space that they want to get to. When a user navigates they become informed of where locations of interest are in releation to them so that they can then [move](#move) to them or towards them.
 #### Potential accessibility barriers
 
- 
+ - consider [Computer Vision](link) or [Human Assistance](link)
 
 ### Orient
 Where a user gains an understanding of the locations of objects that surround their avatar in a virtual space. This may include the whole virtual space or focus on a window. For instance in a first person view orienting may describe just the objects on the screen (requiring the user to turn their avatar to bring more objects into focus) or it may also communicate objects that are 'off camera' to the user.
@@ -147,6 +191,8 @@ Take an object from a virtual space or exhibition. This removes it from the virt
 Place a short 'sticky note' style comment on a document or virtual object.
 #### Potential accessibility barriers
 
+
+- consider [Computer Vision](link) or [Human Assistance](link)
 
 ### Present
 Deliver a presentation to 1 or more users. This is expected to be a one-way communication but could include showing pictures, playing videos, playing audio or using other media or props. 
@@ -179,12 +225,15 @@ Cancelling a reservation to an object, virtual space or event.
 ### Request quote
 Formally request a financial quote. The request will need to contain details of the goods or services being quoted for.
 #### Potential accessibility barriers
-
+##### Any details of the quote communicated visually may not be accessible to blind and partially sighted users
+- All information in a quote should be available visually and audibly 
 
 ### Search a collection
 View a reduced selection of objects from a collection that meet a given set of search criteria.
 #### Potential accessibility barriers
 
+
+- consider [Computer Vision](link) or [Human Assistance](link)
 
 ### show reaction
 A simple feedback mechanism where a 'reaction' picture is displayed to a presenter and other spectators. This is usually a simple emoji such as a heart, thumbs up, laughing emoji etc 
@@ -194,24 +243,29 @@ A simple feedback mechanism where a 'reaction' picture is displayed to a present
 Create a reference to something which can be shared with other users or software agents. 
 #### Potential accessibility barriers
 
+
 ### speaker token
 A token that specifies who is allowed to communicate to the group. 
 #### Potential accessibility barriers
+
 
 ### Spectate
 To observe a presentation or event without providing communication or feedback.
 #### Potential accessibility barriers
 
+
 ### Update in realtime
 To update the users view of a document or object as changes are being made.
 #### Potential accessibility barriers
 
+- consider [Computer Vision](link) or [Human Assistance](link)
 
 ### View 
 Get information about an object. 
 #### Potential accessibility barriers
 ##### Visual information is not accessible to people with sight loss. 
-- Provide a verbal description of the object. Consider [Text-to-Speech (TTS)](#Text-to-Speech) 
+- Provide a verbal description of the object via embedded metadata. Consider [Text-to-Speech (TTS)](#text-to-Speech)
+- If metadata not available consider [Computer Vision](link) or [Human Assistance](link)
 ##### Audio information is not accessible to people with hearing loss
 - Provide visual equivalents for any sounds that are of interest or of importance. Consider [captions](#captions), [speech to text](#speech-to-text) 
 
@@ -221,20 +275,35 @@ Get information about an object.
 ### Audio beacons
 Audio beacons are sounds 'placed around' the user using immersive audio. They can act as a way to locate objects in a virtual space, to annotate objects or to provide waypoints for navigation.
 
+### Automated language translation
+AI based software that can translate between two languages in realtime. Effectiveness may be hampered by strong accents or speech impediments, multiple voices talking at once or low bandwidth or unreliable internet connections. Accuracy is often higher between languages with more speakers or between languages in the same language families (ie French and Spanish, Turkish and Arabic, Dutch and German). Translation between written text may be more accurate.
+
 ### Captions
 Captions are lines of text within a users view that correspond to audio information. They can translate between languages, provide a real-time transcript of speech for people who would struggle to hear or understand spoken language or describe sounds for people with hearing loss. They may also encourage language learning or reduce cognitive load by providing multi-channel communication. 
 
 ### Clear Language
 Using simplified language. << There are many reasons for doing this and different ways to simplify the language. Using language that corresponds to a reduced reading age, avoiding colloquialisms, shorter sentences, unambiguous language etc. Is this one design pattern or several? 
 
+### Computer Vision
+AI that takes an image as input and attempts to describe the image in text. This is a difficult task for AI to perform and can be improved if the context is narrowed. AI is expected to improve in performing this task but currently may focus on the wrong visual elements to describe, use strange or out of place language or hallucinate visual elements that are not present in the picture.
+
 ### High Contrast
 Parts of a visual are made to 'stand out' by using contrasting colours. This is often used for text but could also be used for symbols, the outlines of objects etc. WCAG contains a formula for determining the contrast ratio between two colours.
 
+### Human assistance
+By using telecommunication links a human assistant can be brought in to aid a blind user. This could be to select items based on criteria ("Which of these pens is red?"), describe a document ("What is this letter about?") or to orient a user ("Which way is the seminar area? Can you tell me when I am facing towards it?"). The human assistant could be a paid employee of the platform, a support worker who is paid for by a person's work or government assistance scheme or an unpaid volunteer. Professional support workers are often bound by confidentiality agreements in their contracts.
+
 ### Magnification
-Part of the visuals are enlarged making it easier to see. 
+Part of the visuals are enlarged making them easier to see. 
 
 ### Mono audio
 People who have hearing loss in one ear can benefit from stereo audio being flattened to mono audio so that no audio information is going just to the ear with hearing loss. 
+
+### Remote spoken language interpreter
+An interpreter who translates between two spoken languages via a telecommunications link. They may be funded by a user's workplace, by a service provider through a paid service covering multiple languages or may be funded by the user themselves.
+
+### Respeaking
+Users with speech impediments may use a respeaker to repeat their words after them. Respeakers are often familiar with the user and train on their voice so they can understand what they are saying. AI based automated respeakers may exist.
 
 ### Speech to text
 Audio speech is converted into a stream of text 
@@ -244,6 +313,9 @@ A list of actions which may help someone with cognitive disabilities keep track 
 
 ### Text to speech
 Written text is synthesised into speech and played audibly to the user
+
+### Video Sign Language Interpreter
+A sign language interpreter who is visible to a Deaf sign language user and can hear the room and speak to it. They will translate speech into sign language for a user and translate the users sign language back into speech for other users. This can be tiring to do so sign language interpreters often work in pairs, switching over regularly.
 
 ### Visual sound effects
 In a virtual space objects that make sounds can have captions or speech bubbles placed on them to make them accessible for people with hearing loss. 
