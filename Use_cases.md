@@ -17,7 +17,7 @@ Two or more users can work together on a collaborative project. This could be a 
 ### Exhibition
 A collection of objects of interest such as a museum or art gallery. 
 #### Relevant Mechanics
-[Browse](#browse), [Signpost](#signpost), [Discuss](#discuss), [Search a collection](#Search-a-collection), [View](#view)
+[Browse](#browse), [Discuss](#discuss), [Search a collection](#Search-a-collection), [Signpost](#signpost), [View](#view)
 
 ### Meeting
 A managed discussion which may or may not have a set agenda. There will usually be a chairperson managing the discussion and the meeting may be recorded as an audiovisual file, written transcript, written notes or in some other fashion. A meeting may incorporate a 'speaker token' which mutes all users except for the chairperson and the person with the 'speaker token'. Meetings will commonly incorporate [presentations](#Presentation--demonstration--concert).
@@ -82,9 +82,13 @@ To reserve an object, virtual space or event. This may be an exclusive reservati
 ### Browse
 Cycle through a collection of objects getting enough information about them to make a decision whether to find out more about them, interact with them, signpost or share them or perform some other action.  
 #### Potential accessibility barriers
-
-metadata
-- consider [Computer Vision](link) or [Human Assistance](link)
+##### Visual information listing the items may not be accessible to blind and partially sighted people
+- If the objects are named in text then the text should be read out. Consider [Text-to-Speech (TTS)](#text-to-Speech)
+- If the objects are presented visually then provide a verbal description of the object via embedded metadata. The metadata should include a name for the object and this should be read out first. Consider [Text-to-Speech (TTS)](#text-to-Speech)
+- If metadata is not available consider [Computer Vision](link) or [Human Assistance](link)
+##### Visual information describing the items may not be accessible to blind and partially sighted people
+- Provide a verbal description of the object via embedded metadata. Consider [Text-to-Speech (TTS)](#text-to-Speech)
+- If metadata not available consider [Computer Vision](link) or [Human Assistance](link)
 
 ### Chat
 Communicate with other users or software agents through a range of possible communication channels including spoken language, sign language, text, drawings, facial expression, dance etc.
@@ -111,6 +115,15 @@ Change the appearence of an existing avatar.
 ### Discuss
 Communicate with one or more users or software agents about an object or subject. Communication can be through a range of possible communication channels including spoken language, sign language, text, drawings, facial expression, dance etc. The object or topic should be available as a reference.
 #### Potential accessibility barriers
+##### Reference object is presented visually which is innaccessible to blind and partially sighted users
+- If the objects are named in text then the text should be read out. Consider [Text-to-Speech (TTS)](#text-to-Speech)
+- If the objects are presented visually then provide a verbal description of the object via embedded metadata. The metadata should include a name for the object and this should be read out first. Consider [Text-to-Speech (TTS)](#text-to-Speech)
+- If metadata is not available consider [Computer Vision](link) or [Human Assistance](link)
+##### Communication methods used may be inaccessible to some users
+- Provide multiple communication channels including voice, text, sign language, video, avatar respresentation etc
+- Provide options to transcribe text into speech and speech into text.  Consider TTS, STT,
+##### Communication may not be in the user's preferred language
+- Provide translation services or enable translation services to be used. Consider [Automated Language Translation](link) or [Remote Spoken Language Interpreters](#remote-spoken-language-interpreters) 
 
 ### Draw
 Make marks on a document or virtual object.
@@ -247,7 +260,10 @@ Create a reference to something which can be shared with other users or software
 ### speaker token
 A token that specifies who is allowed to communicate to the group. 
 #### Potential accessibility barriers
-
+##### Visual indicator showing  who has the speaker token may not be accessible to blind and partially sighted users
+Any visual indication of who has the speaker token should be available audibly this could be through a query (A user can trigger a feature that tells them who has the token). If there is a function where the user can cycle through the members of the group to get information about them the speaker token could be indicated by an audio flag when the user cycles to that member of the group or by always placing the person with the speaker token first.
+##### Blind and partially sighted users may not be aware they have the speaker token
+When a person receives the speaker token they should be alerted audibly and visually to the fact. If they try to speak when they don't have the token they should be alerted audibly and visually. They may also be alerted they have the token if they haven't said anything for a while.
 
 ### Spectate
 To observe a presentation or event without providing communication or feedback.
@@ -282,7 +298,7 @@ AI based software that can translate between two languages in realtime. Effectiv
 Captions are lines of text within a users view that correspond to audio information. They can translate between languages, provide a real-time transcript of speech for people who would struggle to hear or understand spoken language or describe sounds for people with hearing loss. They may also encourage language learning or reduce cognitive load by providing multi-channel communication. 
 
 ### Clear Language
-Using simplified language. << There are many reasons for doing this and different ways to simplify the language. Using language that corresponds to a reduced reading age, avoiding colloquialisms, shorter sentences, unambiguous language etc. Is this one design pattern or several? 
+Using simple language. This means choosing simpler words (for instance 'use' rather than 'utilise'), shorter sentences and simpler sentence construction. People whose first language is not the same as the language presented or have cognitive issues or learning difficulties may benefit from simple language. Some Deaf people have sign language as a first language and can find written text difficult to understand or intimidating.  
 
 ### Computer Vision
 AI that takes an image as input and attempts to describe the image in text. This is a difficult task for AI to perform and can be improved if the context is narrowed. AI is expected to improve in performing this task but currently may focus on the wrong visual elements to describe, use strange or out of place language or hallucinate visual elements that are not present in the picture.
@@ -314,8 +330,11 @@ A list of actions which may help someone with cognitive disabilities keep track 
 ### Text to speech
 Written text is synthesised into speech and played audibly to the user
 
+### Unambigouous language
+Language where the intended meaning matches the literal meaning. Language used can sometimes have meanings that are at odds with the literal translation. Common examples are sarcasm, irony, and idioms. It is often assumed that readers and listeners can fill in the gaps using cultural knowledge or inference from context or tone of voice. This may not be the case for people from other languages or cultures or people who are neurodiverse and struggle to interpret social cues.
+
 ### Video Sign Language Interpreter
-A sign language interpreter who is visible to a Deaf sign language user and can hear the room and speak to it. They will translate speech into sign language for a user and translate the users sign language back into speech for other users. This can be tiring to do so sign language interpreters often work in pairs, switching over regularly.
+A sign language interpreter who is presented to a Deaf sign language user over a telecommunications link and can hear the room and speak to it. They will translate speech into sign language for a user and translate the users sign language back into speech for other users. This can be tiring to do so sign language interpreters often work in pairs, switching over regularly.
 
 ### Visual sound effects
 In a virtual space objects that make sounds can have captions or speech bubbles placed on them to make them accessible for people with hearing loss. 
